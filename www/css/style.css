@@ -1,1 +1,199 @@
-/* Empty. Add your own CSS if you like */
+.button-float {
+  background: #66C2FF !important;
+  color: white !important;
+  z-index: 12 !important;
+  position: absolute !important;
+   right: 10px !important;
+  border-radius: 50% !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+  -webkit-transition: 0.2s linear !important;
+  transition: 0.2s linear !important;
+  -webkit-transition-property: -webkit-transform, all !important;
+  transition-property: transform, all !important;
+}
+
+.button-float:hover {
+  -webkit-transform: translate3d(0, -1px, 0) !important;
+  transform: translate3d(0, -1px, 0) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4) !important;
+  background: #5CAFE6 !important;
+}
+
+.rodape-procon{
+  background: #336633;
+  color: white !important;
+  text-align: center;
+}
+
+.testeira-procon{
+ margin: 0px;
+}
+
+.menu-procon{
+  background: #FFCC33;
+  color: white !important;
+  font-size:8pt;
+}
+
+@font-face {
+    font-family: 'fontawesome';
+    src:url('../fonts/fontawesome-webfont.eot');
+    src:url('../fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+        url('../fonts/fontawesome-webfont.woff') format('woff'),
+        url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+        url('../fonts/fontawesome-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.icon-fa-home:before {
+    font-family: "fontawesome";
+    content: "\f015";
+    font-size: 15px;
+    
+}
+
+.icon-fa-book:before {
+    font-family: "fontawesome";
+    content: "\f02d";
+    font-size: 15px;    
+}
+
+.icon-fa-comments:before {
+    font-family: "fontawesome";
+    content: "\f086";
+    font-size: 15px;
+}
+
+.icon-fa-wrench:before {
+    font-family: "fontawesome";
+    content: "\f0ad";
+    font-size: 15px;
+}
+
+.icon-info-sign:before {
+    font-family: "fontawesome";
+    content: "\F05A";
+    font-size: 15px;
+}
+
+.icon-cogs:before {
+    font-family: "fontawesome";
+    content: "\F085";
+    font-size: 15px;
+}
+
+.icon-group:before {
+    font-family: "fontawesome";
+    content: "\F0C0";
+    font-size: 12px;
+}
+
+.icon-glass:before {
+    font-family: "fontawesome";
+    content: "\F000";
+    font-size: 12px;
+}
+
+.icon-glass-dash:before {
+    font-family: "fontawesome";
+    content: "\F000";
+    font-size: 20px;
+}
+
+.icon-envelope-o-dash:before {
+    font-family: "fontawesome";
+    content: "\f003";
+    font-size: 20px;
+}
+
+.icon-fa-wrench-dash:before {
+    font-family: "fontawesome";
+    content: "\f0ad";
+    font-size: 20px;
+}
+
+.icon-book-dash:before {
+    font-family: "fontawesome";
+    content: "\f02d";
+    font-size: 20px;
+}
+
+.icon-group-dash:before {
+    font-family: "fontawesome";
+    content: "\F0C0";
+    font-size: 20px;
+}
+
+.icon-remove:before {
+    font-family: "fontawesome";
+    content: "\f00d";
+    font-size: 5px;
+}
+ 
+ .icon-stethoscope:before {
+    font-family: "fontawesome";
+    content: "\f0f1";
+    font-size: 17px;
+}
+
+
+ .icon-coffee:before {
+    font-family: "fontawesome";
+    content: "\f0f4";
+    font-size: 17px;
+}
+
+ .icon-film:before {
+    font-family: "fontawesome";
+    content: "\f008";
+    font-size: 17px;
+}
+
+ .icon-food:before {
+    font-family: "fontawesome";
+    content: "\f0f5";
+    font-size: 17px;
+}
+
+ .icon-key:before {
+    font-family: "fontawesome";
+    content: "\f084";
+    font-size: 17px;
+}
+
+ .icon-github-sign:before {
+    font-family: "fontawesome";
+    content: "\f092";
+    font-size: 17px;
+}
+
+.icon-gestao:before {
+    font-family: "fontawesome";
+    content: "\f14e";
+    font-size: 20px;
+}
+
+.icon-moda:before {
+    font-family: "fontawesome";
+    content: "\f0f2";
+    font-size: 17px;
+}
+
+.icon-seta-cima:before {
+    font-family: "fontawesome";
+    content: "\f0aa";
+    font-size: 20px;
+}
+
+.center {
+   text-align: center;
+ }
+
+
+.icon-imagem {
+   font-size: 20px;
+ }

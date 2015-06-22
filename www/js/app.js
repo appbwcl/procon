@@ -85,7 +85,39 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.consulta_processual', {
+    url: "/consulta_processual",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/procon_consulta_processual.html"
+      }
+    }
+  })
+
+
+  .state('app.localizacao_postos', {
+    url: "/localizacao_postos",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/localizacao_postos.html",
+        controller: 'MapCtrl'
+      }
+    }
+  })
+
+  
+
+
+.state('app.direito_seu', {
+    url: "/direito_seu",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/direito_seu.html"
+      }
+    }
+  })
   ;
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/principal');
 });
+
